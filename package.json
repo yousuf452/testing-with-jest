@@ -13,5 +13,8 @@
     "testing"
   ],
   "author": "Yousuf",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.13.6"
+  }
 }
