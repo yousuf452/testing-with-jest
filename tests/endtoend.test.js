@@ -45,9 +45,6 @@ test('"Poppa stacken!" ska ta bort top elementet', async () => {
 
     //klickar sedan peek för att få fram den nya top elementet.
     await driver.findElement(By.id('peek')).click();
-    //hanterar prompt alert
-    let peekAlert = await driver.switchTo().alert();
-    await peekAlert.accept();
 
     // Hämtar och checkar om elementet är "Key lime pie"
     let topOfStack = await driver.findElement(By.id('top_of_stack')).getText();
